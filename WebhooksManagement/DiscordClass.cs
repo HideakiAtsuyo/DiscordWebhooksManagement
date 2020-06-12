@@ -55,7 +55,7 @@ namespace MultiTools
                 MessageBox.Show($"Error: \n{ex}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        public static void removeWebhook(string webhook)
+        public static void removeWebhook(dynamic webhook)
         {
             try
             {
