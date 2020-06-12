@@ -10,7 +10,7 @@ namespace MultiTools
     class DiscordClass
     {
         //////////////////////////////////WEBHOOKS//////////////////////////////////
-        public static void infosWebhook(string webhook)
+        public static void infosWebhook(dynamic webhook)
         {
             try
             {
@@ -35,7 +35,7 @@ namespace MultiTools
                 MessageBox.Show($"Error: \n{ex}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        public static void editWebhook(string webhook, string name, string avatar)
+        public static void editWebhook(dynamic webhook, dynamic name, dynamic avatar)
         {
             try
             {
